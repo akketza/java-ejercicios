@@ -30,12 +30,12 @@ public class porcentajeValor {
                 
         parametroDos = sc.nextDouble();
         
-        System.out.println("El % es: " + alejo (parametroUno, parametroDos));
+        System.out.println("El % es: " + calculo (parametroUno, parametroDos));
         
     }
     
     
-    public static double alejo (double valor1, double valor2){
+    public static double calculo (double valor1, double valor2){
         //este modulo nos retorna el porcentaje 
         double porcentaje;
         
