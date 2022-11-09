@@ -16,8 +16,7 @@ public class imprimirLineas {
      */
     public static void main(String[] args) {
         // este algoritmo con modulos imprime lineas
-        
-        
+
         System.out.println(primerLinea());
         System.out.println(segundaLinea());
         System.out.println(tercerLinea());
@@ -25,11 +24,11 @@ public class imprimirLineas {
         System.out.println(quintaLinea());
         System.out.println(sextaLinea());
         System.out.println(septimaLinea());
-        
+
         System.out.println("                        ");
         System.out.println("----primer algoritmo----");
         System.out.println("                        ");
-        
+
         System.out.println(primerLinea());
         System.out.println(quintaLinea());
         System.out.println(segundaLinea());
@@ -39,16 +38,16 @@ public class imprimirLineas {
         System.out.println(segundaLinea());
         System.out.println(quintaLinea());
         System.out.println(primerLinea());
-        
+
         System.out.println("                         ");
         System.out.println("----segundo algoritmo----");
         System.out.println("                         ");
-        
+
         System.out.println(primerLinea() + primerLinea());
         System.out.println(quintaLinea() + quintaLinea());
         System.out.println(cuartaLinea() + cuartaLinea());
-        System.out.println(tercerLinea()+ sextaLinea());
-        System.out.println(tercerLinea()+ sextaLinea());
+        System.out.println(tercerLinea() + sextaLinea());
+        System.out.println(tercerLinea() + sextaLinea());
         System.out.println(cuartaLinea() + sextaLinea());
         System.out.println(sextaLinea() + cuartaLinea());
         System.out.println(sextaLinea() + quintaLinea());
@@ -57,48 +56,46 @@ public class imprimirLineas {
         System.out.println(primerLinea() + primerLinea());
     }
 
-    public static String primerLinea()
-    {
-       String primerLinea = "+---------------------+";
-        
+    public static String primerLinea() {
+        String primerLinea = "+---------------------+";
+
         return primerLinea;
-    } 
-    
-    public static String segundaLinea()
-    {
-       String segundaLinea = "|    +-----------+    |";
-        
+    }
+
+    public static String segundaLinea() {
+        String segundaLinea = "|    +-----------+    |";
+
         return segundaLinea;
-    } 
-    public static String tercerLinea()
-    {
+    }
+
+    public static String tercerLinea() {
         String tercerLinea = "|    +-----|-----+    |";
-        
+
         return tercerLinea;
     }
-    public static String cuartaLinea()
-    {
+
+    public static String cuartaLinea() {
         String cuartaLinea = "|    +-----+-----+    |";
-        
+
         return cuartaLinea;
     }
-    public static String quintaLinea()
-    {
+
+    public static String quintaLinea() {
         String quintaLinea = "|                     |";
-        
+
         return quintaLinea;
     }
-    public static String sextaLinea ()
-    {
-       String sextaLinea = "|    |     |     |    |";
-       
-       return sextaLinea;
+
+    public static String sextaLinea() {
+        String sextaLinea = "|    |     |     |    |";
+
+        return sextaLinea;
     }
-    public static String septimaLinea ()
-    {
+
+    public static String septimaLinea() {
         String septimaLinea = "|     |        |      |";
-        
+
         return septimaLinea;
     }
-    
+
 }
